@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // },
   });
 
-  const apiKey = "1Tp8sov5KXNqHPqoMcpN0Lg2tzvhMTqj";
+  const apiKey = "Enter Your Api KEy";
   const artistName = "Paris";
   const swiperWrapper = document.getElementById("swiper-wrapper");
   const mainProfileImage = document.getElementById("main-profile-image");
@@ -96,3 +96,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // Call API
   getLiveConcertData(artistName);
 });
+
